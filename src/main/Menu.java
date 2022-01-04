@@ -2,10 +2,10 @@ package main;
 
 import java.util.Scanner;
 
-public class Display {
+public class Menu {
     Scanner sc = new Scanner(System.in);
 
-    public Display() {
+    public Menu() {
     }
 
     public void start() {

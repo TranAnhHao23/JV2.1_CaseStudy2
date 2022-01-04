@@ -4,6 +4,7 @@ public class Computer {
     public static int ID = 1;
     private int id;
     private boolean status;
+    private double timeUse;
 
 
     public Computer() {
@@ -26,6 +27,15 @@ public class Computer {
     public void setId(int id) {
         this.id = id;
     }
+
+    public double getTimeUse() {
+        return timeUse;
+    }
+
+    public void setTimeUse(double timeUse) {
+        this.timeUse = timeUse;
+    }
+
 
     @Override
     public String toString() {

@@ -1,6 +1,6 @@
 package login_status;
 
-import main.Display;
+import main.Menu;
 import manage.AccountManager;
 import model.Account;
 
@@ -36,7 +36,7 @@ public class Login {
                     for (Account account : accounts) {
                         if (account.getUserName().equals(userName) && account.getPassword().equals(password)) {
                             check = true;
-                            Display display = new Display();
+                            Menu display = new Menu();
                             display.start();
                         }
                     }
